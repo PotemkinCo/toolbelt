@@ -36,6 +36,7 @@ Unattended-Upgrade::Allowed-Origins {
         "${distro_id}:${distro_codename}-security";
         "${distro_id}ESMApps:${distro_codename}-apps-security";
         "${distro_id}ESM:${distro_codename}-infra-security";
+        "Docker:${distro_codename}";
 };
 
 Unattended-Upgrade::Package-Blacklist {
