@@ -1,5 +1,11 @@
 # Toolsbelt 
 
+## Bare essence
+
+```bash
+sudo apt update && sudo apt upgrade -y && sudo apt install -y vim && sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime && sudo dpkg-reconfigure -f noninteractive tzdata && sudo update-alternatives --set editor /usr/bin/vim.basic
+```
+
 ## Ubuntu setup script
 ```bash
 wget https://raw.githubusercontent.com/PotemkinCo/toolbelt/main/ubuntu_setup.sh && sudo bash ubuntu_setup.sh
