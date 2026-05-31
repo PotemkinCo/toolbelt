@@ -5,9 +5,9 @@
 wget https://raw.githubusercontent.com/PotemkinCo/toolbelt/main/ubuntu_setup.sh && sudo bash ubuntu_setup.sh
 ```
 
-For leaving ssh config as is: 
+For leaving ssh & ipv6 as is: 
 ```bash
-wget https://raw.githubusercontent.com/PotemkinCo/toolbelt/main/ubuntu_setup.sh && sudo bash ubuntu_setup.sh -no-ssh
+wget https://raw.githubusercontent.com/PotemkinCo/toolbelt/main/ubuntu_setup.sh && sudo bash ubuntu_setup.sh -no-ssh -keep-ipv6
 ```
 
 ## FreeBSD nicies
