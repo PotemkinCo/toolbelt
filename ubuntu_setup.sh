@@ -44,6 +44,8 @@ Unattended-Upgrade::Package-Blacklist {
 
 Unattended-Upgrade::DevRelease "false";
 Unattended-Upgrade::AutoFixInterruptedDpkg "false";
+Unattended-Upgrade::Remove-Unused-Dependencies "false";
+Unattended-Upgrade::Remove-Unused-Kernel-Packages "false";
 Unattended-Upgrade::MinimalSteps "true";
 Unattended-Upgrade::SyslogEnable "true";
 Unattended-Upgrade::SyslogFacility "daemon";
