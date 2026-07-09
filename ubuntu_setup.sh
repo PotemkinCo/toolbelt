@@ -83,7 +83,7 @@ crontab -l
     
     read -p "Verify that port is valid and press Enter"
     
-    service sshd restart
+    systemctl restart ssh.socket sshd
 }
 
 apt update && apt upgrade -y
